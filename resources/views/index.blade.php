@@ -1,12 +1,12 @@
 @extends('layouts.site')
 
 @section('content')
-    <div class="grid grid-cols-6 flex flex-row h-screen">
-        <div class="container flex-grow col-span-2 mx-auto py-10 px-4 sm:px-6 lg:px-8 bg-gray-100">
-            <h1 class="font-semibold text-2xl">Nearby Specials</h1>
-        </div>
-        <div class="col-span-4">
-
+    <div class="bg-purple-200 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-10">
+            <h2 class="text-2xl font-bold">Nearby Specials</h2>
+            <div class="mt-5">
+                <livewire:site.location.nearby-specials/>
+            </div>
         </div>
     </div>
 @endsection

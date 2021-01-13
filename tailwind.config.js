@@ -6,7 +6,10 @@ module.exports = {
   ],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+      fontFamily: {
+          'sans': ['Lato', 'BlickMacSystemFont', 'Helvectia Neue', 'Arial', 'sans-serif'],
+      },
+      extend: {},
   },
   variants: {
     extend: {},

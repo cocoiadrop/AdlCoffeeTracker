@@ -15,7 +15,7 @@
 </head>
 <body class="h-screen">
     <!-- Navigation -->
-    <nav class="bg-purple-200 shadow-md z-50">
+    <nav class="bg-purple-200 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex flex-row items-center">
@@ -26,16 +26,7 @@
                 </div>
                 <div class="hidden md:block -mr-2 justify-end">
                     <div class="space-x-4 flex flex-row">
-                        <a href="" class="p-2">
-                            <div class="flex flex-row items-center">
-                                <svg class="h-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                                <span>Map</span>
-                            </div>
-                        </a>
-                        <a href="" class="p-2 px-4 text-white bg-purple-400 rounded-2xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+                        <a href="" class="transition p-2 px-4 text-white bg-purple-400 rounded-2xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
                             <div class="flex flex-row items-center">
                                 <svg class="h-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
