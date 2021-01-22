@@ -13,13 +13,13 @@ class NearbySpecials extends Component
     {
         //See if there is a user location (postcode) in the session
         if (session()->has('postcode') && session('postcode') != null) {
-            return "Postcode";
+            return 'Postcode';
         } else {
             //Find localities in search term
-            $localities = Locality::where('name', 'like', '%' . $this->localitySearch . '%')->orWhere('postcode', 'like', '%' . $this->localitySearch . '%')->get();
+            $localities = Locality::where('name', 'like', '%'.$this->localitySearch.'%')->orWhere('postcode', 'like', '%'.$this->localitySearch.'%')->get();
 
             //If search term is nothing or too short (50 won't work for example)
-            if (strlen($this->localitySearch)  <=  2) {
+            if (strlen($this->localitySearch) <= 2) {
                 $localities = [];
             }
 
