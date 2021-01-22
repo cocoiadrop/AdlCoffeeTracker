@@ -15,7 +15,7 @@ class Locality extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'postcode'
+        'name', 'postcode',
     ];
 
     /**
@@ -24,6 +24,6 @@ class Locality extends Model
      * @var array
      */
     protected $hidden = [
-        'id'
+        'id',
     ];
 }
